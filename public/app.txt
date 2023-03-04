@@ -1,0 +1,9 @@
+<details> use list-style type/image to configure icon
+    <summary> drop down question
+    <p> answer
+
+<dialog> tag for modals. put "open" attribute (one word, no key and value) to make visible. or use showModal() vanilla javascript
+    <p>question
+
+    <i>answer yes
+    <i>answer no

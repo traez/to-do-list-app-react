@@ -1,0 +1,133 @@
+/* 
+dd
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    background-color: hsl(0, 0%, 75%);
+    padding:1rem;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  main{
+    width: 60rem; 
+    height: 45rem;
+    background: #2b5870;
+    border: 2px solid hsl(204, 63%, 47%);
+    color: #ffffff;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display:grid;
+    grid-template: 3fr 6fr 1fr/auto;
+    grid-template-areas:
+        "one"
+        "two"
+        "three";
+  }
+nav{
+    grid-area: one;
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid hsl(204, 63%, 47%);
+    background-color: rgb(16, 41, 110);
+    padding: 0 2rem;
+}
+article{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    align-items: center;
+    gap:0.5rem;
+}
+header{
+    font-size: 1.5rem; 
+}
+aside{
+    background-image: url(images/react-icon-small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 2rem;
+    width: 2rem;
+}
+menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    align-items: center;
+    gap:1.5rem;
+}
+.menu-li{
+    list-style: none;
+    font-size: 1.2rem; 
+  }
+.menu-li:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 52%);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+  }
+#sign-up{
+    background-color: rgb(27, 190, 190);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    list-style: none;
+}
+#sign-up:hover{
+    background-color: hsl(0, 0%, 52%);
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items: center;
+    gap:0.5rem;
+}
+.ul-li{
+    list-style: none;
+    font-size: 0.8rem; 
+}
+.ul-li:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 52%);
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.4rem;
+}
+section{
+    grid-area: two;
+}
+footer { 
+    grid-area: three;
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    align-items: center;
+    font-size: 0.9rem; 
+    background-color: rgb(184, 184, 184);
+    border: 2px solid hsl(204, 63%, 47%);
+    border-radius: 0.5rem;
+    }
+.hide{
+    display:none;
+}
+
+
+ 
+
+  
